@@ -1,0 +1,92 @@
+.centerText {
+    text-align: center;
+}
+#alignImages {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #335C67;
+    margin: 100 auto;
+}
+.imagePadding {
+    padding: 5% 5% 10px 10px;
+}
+#horizontalStyle {
+    color: white;
+}
+.footerColor {
+    color: blue;
+}
+#info{
+    text-align:center;
+    color: white;
+}
+.styleImage {
+    border-radius: 65px; 
+    height: 300px;
+}
+.title{
+    text-align: center;
+    color: white;
+}
+
+body {
+    background-color: #0c0c0a;
+}
+
+nav {
+    background-color: #464fbc;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.navLink {
+    background-color: #242424;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    margin: 15px;
+    font-size: 20px; 
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin: auto; 
+}
+
+.navLink:hover {
+    border: 2px solid white;
+}
+
+#intro{
+    background-color: #242424;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    margin: 15px;
+    font-size: 20px; 
+}
+
+#sources{
+    background-color: #242424;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+#info2{
+    background-color: #242424;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+#greeting{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+
