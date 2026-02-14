@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lab 2 Guess the number</title>
     <script src ="js/script.js" defer> </script>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
@@ -18,11 +19,17 @@
     <br>
 
     <button id = "GuessBTN"> Guess!</button>
+    <button id ="ResetBTN" style = "display:none;">Reset</button>
     <br>
     Previous Guesses: 
     <span id = "userGuesses"></span>
     <br>
-    Guess was too: 
+    Guess was: 
     <span id = "guessHighLow"></span>
+    <br>
+    Wins: <span id = "wins"> 0 </span>
+    <br>
+    Losses: <span id = "losses"> 0 </span>
+    
 </body>
 </html>

@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(33, 49, 104);
+    text-align: center;
+    margin: 0;
+    padding: 40px;
+}
+h1 {
+    color:rgb(16, 104, 197);
+    background-color: black;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100px;
+    padding: 8px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 6px;
+    outline: none;
+}
+
+button {
+    padding: 10 px 20px;
+    font-size: 16px;
+    background-color: rgb(55, 11, 177);
+    color: white;
+    border-radius: 6px;
+}
+
+button:hover{
+    background-color: rgb(196, 17, 17);
+}
