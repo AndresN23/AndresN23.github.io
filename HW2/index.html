@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LET'S GO GAMBILING</title>
+    <link rel = "stylesheet" href = "css/styles.css">
+    <script src="js/script.js"defer></script>
+</head>
+<body>
+    <h1 id = "title"> LET'S GO GAMBILING!!!</h1>
+    <div id = "centering">
+
+
+    <input type = "number" id="betInput" min = "1" placeholder="Bet">
+    <button onclick="Spinning()"> Spin</button>
+    <button onclick="resetGame()"> Reset</button>
+
+    <div class = "slots">
+        <span id = "slot1"> ? </span>
+        <span id = "slot2"> ? </Span>
+        <span id = "slot3"> ? </span>
+    </div>
+    <p id = "balDis" > Balance: $100 </p>
+    <p id = "message"></p>
+    <img id="resultImage" src="img/lgg_idel.png" alt="Game status" width="200">
+
+
+    </div>
+</body>
+</html>
