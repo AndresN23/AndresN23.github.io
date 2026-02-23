@@ -1,4 +1,4 @@
-let balance = 100;
+let balance = 1000;
 const symbols = ["🍒", "7️⃣", "🍫"];
 
 const images = {
