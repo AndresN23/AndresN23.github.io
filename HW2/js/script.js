@@ -114,6 +114,6 @@ function Spinning(){
 
 }
 function resetGame(){
-    balance = 100;
+    balance = 1000;
     updateDisplay("Game reset", "idle")
 }
