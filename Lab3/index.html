@@ -1,33 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lab 3 Quiz</title>
-    <script src="js/script.js" defer></script>
-    <script src="https://unpkg.com/underscore@1.13.7/underscore-umd-min.js">
-    </script>
-    
-</head>
-<body>
-    <h1> CSS Quiz</h1>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="js/script.js" defer></script>
+        <script src="https://unpkg.com/underscore@1.13.7/underscore-umd-min.js"></script>
+    </head>
+    <body>
+        <h1>Quiz</h1>
 
-    1. What is the CSS property to change or set font color
-    <br>
+        1. What is the CSS Property to set the font color?
+        <br>
+        <div id="q1ChoicesDiv"></div> 
+        <div id="q1"></div>
+        <br> 
+        
+        2. Where is CSUMB located?
+        <br>
+        <div id="q2ChoicesDiv"></div> 
+        <div id="q2"></div>
+        <br>
 
-   <div id ="q1ChoicesDiv"></div>
-<br>
-    2. What typing is Charizard
-    <br>
-    <input type = "text" id = "q2">
+        3. What HTML tag is needed to link a javascript file?
+        <br>
+        <label><input type="text" name="q3" value=""></label>
+        <div id="q3"></div>
+        <br>
+        
+        <br>
+        4. How many planets are in our Solar System?
+        <input id="q4question" type="number" min="1" max="20" step="1">
+        <div id="q4"></div>
+        <br>
+            
+        <br>
+        
+        5. What type is Pikachu?
+        <select id="selectInput">
+            
+            <option> Flying </option>
+            <option> Electric </option>
+            <option> Water </option>
+            
+        </select>
+        <div id="q5"></div>
+        <br> 
 
-<br>
-    3. What Ball has the highest catch rate?
-    <select id="selectInput">
-        <option> Option Value </option>
-   </select>
-
-    
-    <button> submit </button>
-</body>
+        <button>Submit Quiz</button> 
+        
+    </body>
 </html>
