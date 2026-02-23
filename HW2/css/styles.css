@@ -2,8 +2,47 @@
     text-align: center;
     color: blue;
     background-color: black;
+    border: 10px ;  padding: 10px;
+    border-radius: 100px;
 }
 
 #centering{
     text-align: center;
+}
+#slot1{
+    color: blue;
+    background-color: black;
+    border: 10px ;  padding: 10px;
+    border-radius: 100px;
+}
+#slot2{
+    color: blue;
+    background-color: black;
+    border: 10px ;  padding: 10px;
+    border-radius: 100px;
+}
+#slot3{
+    color: blue;
+    background-color: black;
+    border: 10px ;  padding: 10px;
+    border-radius: 100px;
+}
+body{
+    background-color: rgb(13, 96, 178);
+}
+
+#button{
+    border: 10px ;  padding: 10px;
+    border-radius: 100px;
+    background-color: blue;
+}
+#balDis{
+    text-align: center;
+    color: blue;
+    background-color: black;
+    border: 10px ;  padding: 10px;
+    border-radius: 100px;
+}
+#resultImage{
+    border-image: 10px; padding: 10px;;
 }
