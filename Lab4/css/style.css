@@ -1,0 +1,36 @@
+body{ 
+    background-color: aqua;
+    text-align: center;
+}
+h1 {
+    color: rgb(93, 10, 166);
+    font-size: 50px;
+}
+#city{
+    color: rgb(214, 87, 8); 
+    background-color: aquamarine;
+}
+#lat{
+    color: rgb(214, 87, 8);
+    background-color: aquamarine;
+}
+#lon{
+    color: rgb(214, 87, 8);
+    background-color: aquamarine;
+}
+#state{
+    color: green;
+    background-color: aquamarine;
+    border-radius: 6px;
+}
+#username{
+    color: blue;
+    background-color: aquamarine;
+    width: 100px;
+    padding: 8px;
+    font-size: 16px;
+}
+#usernameError{
+    color: red;
+    background-color: aquamarine;
+}

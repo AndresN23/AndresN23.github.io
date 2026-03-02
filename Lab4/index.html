@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Sign Up Page </title>
+   <!-- dont forget to defer -->
+   <script src = "js/script.js" defer></script>
+   <link rel ="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1> Sign Up </h1>
+    <form action = "welcome.html" id = "signupForm">
+    <!-- text box -->
+     First Name:<input type="text" name="fName"><br>
+     Last Name: <input type="text" name="lName"><br>
+     <!-- text box -->
+      <!-- Multiple choice  -->
+     Gender:    
+         <input type="radio" name="gender" value="m">Male<br>
+         <input type="radio" name="gender" value="f">Female<br>	
+      Zip Code:  <input type="text" id="zip" name="zip"><br>
+      City:   <span id="city"></span>  <br>
+      Latitude: <span id ="lat"> </span> <br>
+      Longitude: <span id = "lon"></span> <br><br>
+
+      State: 
+      <!-- drop down menu -->
+      <select id="state" name="state">
+            <option>Select One</option>
+            <option value="ca">California</option>
+            <option value="ny">New York</option>
+	<option value="tx">Texas</option>
+       </select> <br>
+
+
+       Select a County: <select id="county"></select><br>
+
+
+       Desired Username: 
+       <input type="text" id="username" ><br>
+       <span id = "usernameError"></span>
+       <br><br>
+
+        Password: 
+        <input type="password" id = "password">
+        <span id="suggestedPwd"></span> 
+        <br><br>
+
+
+        Type Password Again: 
+        <input type="password" id = "password2"><br>
+        <span id="passwordError"></span> 
+        <br><br>
+
+         <input type="submit" value="Sign up!">
+        </form>
+</body>
+</html>
